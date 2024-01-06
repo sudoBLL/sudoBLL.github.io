@@ -117,7 +117,7 @@ h1 {
 }
 
 .search_bar input {
-    width: 50%;
+    width: 49%;
     padding: 10px;
     border: 1px solid rgb(190, 190, 190);
 }
@@ -129,11 +129,11 @@ h1 {
 .search_bar select {
     border: 1px solid rgb(190, 190, 190);
     padding: 10px;
-    margin-left: 2rem;
+    width: 49%;
 }
 
 .search_bar .filter {
-    width: 300px;
+    width: 49%;
 }
 
 .tags_bar {
@@ -173,7 +173,60 @@ h1 {
     color: blueviolet;
 }
 
-.job_card {
+.export_button {
+    width: 50%;
+    padding: 15px;
+    cursor: pointer;
+    display: flex;
+    border-radius: 10px;
+    background: #fff;
+    margin-bottom: 15px;
+
+    border: 2px solid rgb(190, 190, 190);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+    align-items: center;
+}
+
+.button_details {
+    display: flex;
+    justify-content: center;
+}
+
+.button_details .img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button_details .img i {
+    width: 70px;
+    font-size: 3rem;
+    margin-left: 1rem;
+    padding: 10px;
+    color: rgb(82, 22, 138);
+    background: rgb(216, 205, 226);
+    align-content: center;
+}
+
+.button_details .text {
+    margin-left: 2.3rem;
+}
+
+.button_details .text span {
+    color: rgb(116, 112, 112);
+}
+
+.export_button:active {
+    border: 2px solid blueviolet;
+    transition: 0.4s;
+}
+
+.export_output {
+    text-align: left;
+}
+
+.output {
+    position: relative;
     width: 100%;
     padding: 15px;
     cursor: pointer;
@@ -181,46 +234,24 @@ h1 {
     border-radius: 10px;
     background: #fff;
     margin-bottom: 15px;
-    justify-content: space-between;
     border: 2px solid rgb(190, 190, 190);
     box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
 }
 
-.job_details {
-    display: flex;
+.copy_output {
+    text-align: start;
 }
 
-.job_details .img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.job_details .img i {
-    width: 70px;
-    font-size: 3rem;
-    margin-left: 1rem;
+#copyButton {
+    position: absolute;
+    top: 3px;
+    right: 3px;
     padding: 10px;
-    color: rgb(82, 22, 138);
-    background: rgb(216, 205, 226);
-}
-
-.job_details .text {
-    margin-left: 2.3rem;
-}
-
-.job_details .text span {
-    color: rgb(116, 112, 112);
-}
-
-.job_salary {
-    text-align: right;
-    color: rgb(54, 54, 54);
-}
-
-.job_card:active {
-    border: 2px solid blueviolet;
-    transition: 0.4s;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
 }
 
 </span>
