@@ -1,0 +1,39 @@
+[
+    {
+      "firstName": "John",
+      "lastName": "Doe",
+      "age": 30,
+      "email": "john.doe@example.com",
+      "address": {
+        "street": "123 Main Street",
+        "city": "Anytown",
+        "zipCode": "12345"
+      },
+      "hobbies": ["Reading", "Traveling", "Photography"]
+    },
+    {
+      "firstName": "Alice",
+      "lastName": "Smith",
+      "age": 25,
+      "email": "alice.smith@example.com",
+      "address": {
+        "street": "456 Oak Avenue",
+        "city": "AnotherCity",
+        "zipCode": "67890"
+      },
+      "hobbies": ["Gardening", "Cooking", "Painting"]
+    },
+    {
+      "firstName": "Bob",
+      "lastName": "Johnson",
+      "age": 35,
+      "email": "bob.johnson@example.com",
+      "address": {
+        "street": "789 Pine Road",
+        "city": "YetAnotherCity",
+        "zipCode": "54321"
+      },
+      "hobbies": ["Cycling", "Fishing", "Playing Guitar"]
+    }
+  ]
+  
