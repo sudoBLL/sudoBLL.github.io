@@ -59,10 +59,12 @@ nav {
 ul {
     margin: 0 auto;
     list-style: none;
+    padding: 0;
 }
 
 li {
     padding-bottom: 2rem;
+    text-align: left;
 }
 
 li a {
